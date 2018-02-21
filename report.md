@@ -24,10 +24,10 @@ In order to do this, I modified the draw_line function by computing the average 
 Finally,I used the weighted_img function with the default parameter values to map the single lines to the original image:
 ![out](https://raw.githubusercontent.com/junfeizhu/CarND-LaneLines-P1/master/test_images_output/out.jpg)
 
-
+## 2.Potential shortcomings
 One potential shortcoming is that my pipeline may be very sensitive to the shade of trees or other objects on the road. This can be seen in the optioal challenge. When there are shades on the road, the lines are quite off:
 
 ![bad_result](https://raw.githubusercontent.com/junfeizhu/CarND-LaneLines-P1/master/bad_result/bad_result.png)
 
-A possible improvement would be to use the color information. Lanes are usually white or yellow. However shades are dark. By using some color filter, it may imporve my pipeline.
-
+## 3.Possible improvements
+A possible improvement would be to use the color information. Lanes are usually white or yellow. However shades are dark. By using some color filters, it may imporve my pipeline.
